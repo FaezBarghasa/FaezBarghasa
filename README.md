@@ -117,45 +117,20 @@ My core expertise lies in **Rust-based embedded development** (`no_std`, `async`
 
 ## 🌐 Open Source Contributions & Forks
 
-### Contributions
+### [Redox OS](https://gitlab.redox-os.org/redox-os)
 
-#### [Redox OS](https://gitlab.redox-os.org/redox-os)
+I contribute to this Unix-like operating system written in Rust, working across the entire stack:
 
-I contribute to this Unix-like operating system written in Rust, focusing on:
+#### Core System & Drivers
 
-* **`relibc`** — Redox's C standard library implemented in Rust
-* **`ion`** — A high-performance modern shell
+`kernel` · `redox` · `redox-rpm-next` · `redoxfs` · `relibc` · `ion` · `netstack` · `init` · `ipcd` · `zerod` · `drivers` · `cookbook`
 
-Also:
+#### Primary Focus Areas
 
-* Active contributor to operating system and low-level Rust ecosystems
-* Implemented POSIX-compatible components and memory management improvements in experimental OS environments
-* Research and experimentation with userspace driver models and microkernel architecture
-* Ongoing exploration of async-first embedded Rust patterns
-
-### Maintained & Experimental Forks
-
-I actively maintain and experiment with forks of multiple Redox OS components for deep systems research, architectural exploration, and performance validation.
-
-#### Core System Components
-
-`kernel` · `redox` · `redox-rpm-next` · `redoxfs` · `relibc` · `ion`
-
-#### System Services & Infrastructure
-
-`netstack` · `init` · `ipcd` · `zerod`
-
-#### Development & Ecosystem Tools
-
-`drivers` · `cookbook`
-
-These forks are used for:
-
-* Studying kernel internals and memory management design
-* Experimenting with userspace drivers and modular OS architecture
-* Testing networking stack modifications and IPC mechanisms
-* Exploring filesystem and package management behavior
-* Evaluating performance, safety, and architectural trade-offs in Rust-based operating systems
+* **`relibc`** — Redox's C standard library implemented in Rust.
+* **`ion`** — A high-performance modern shell.
+* **System Architecture** — Userspace driver models, microkernel architecture research, and memory management optimization.
+* **Ecosystem** — POSIX-compatible components and async-first embedded Rust patterns.
 
 ---
 
