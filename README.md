@@ -1,154 +1,158 @@
-<div align="center">
-
 # Faez Barghasa
 
-### Chief Technology Officer · Senior Systems & Embedded Engineer
+**CTO · Embedded Systems Architect · Rust Engineer**
 
-[![GitHub](https://img.shields.io/badge/GitHub-FaezBarghasa-181717?style=flat-square&logo=github)](https://github.com/FaezBarghasa)
-[![Location](https://img.shields.io/badge/📍-Karaj%2C%20Iran%20%2F%20Remote-lightgrey?style=flat-square)](https://en.wikipedia.org/wiki/Karaj)
-[![Email](https://img.shields.io/badge/Email-faez.barghasa.org%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:faez.barghasa.org@gmail.com)
-
-</div>
+> *Building reliable, high-performance systems from bare silicon to cloud — solo or at scale.*
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-I am a systems engineer and technical leader focused on low-level systems architecture, hardware–software co-design, and high-performance networking.
-Currently serving as **CTO at Micromed Contracting Company**, leading R&D initiatives for industrial and medical instrumentation.
+I'm a self-directed systems engineer based in **Karaj, Iran**, currently serving as **CTO at Micromed** — where I own the full technical stack: schematic design, PCB layout, bare-metal firmware, embedded Linux, backend services, and desktop UI.
 
-My core expertise lies in **Rust-based embedded development** (`no_std`, `async`), kernel-level experimentation, userspace networking stacks, and multi-layer PCB design for precision systems.
+My core belief: **performance and correctness are not tradeoffs** — Rust proves it every day.
 
----
+I've spent 5+ years going deep on the Rust ecosystem, from `no_std` bare-metal firmware on STM32 and ESP32, to async networked services with `actix-web`, to studying the internals of the [Redox OS](https://www.redox-os.org/) microkernel — kernel, `relibc`, `redoxfs`, `netstack`, `ion`, `init`, `ipcd`, `zerod`, and the full driver model.
 
-## dart 🎯 Technical Focus
-
-### Systems & Kernel Engineering
-
-* Microkernel vs monolithic architecture research
-* Physical memory management & syscall interfaces
-* Advanced Rust (Safe/Unsafe), zero-cost abstractions
-* `no_std` / `no_alloc` for real-time systems
-
-### Embedded & Firmware
-
-* Bare-metal Rust firmware
-* Asynchronous drivers (Embassy-style)
-* `embedded-hal` ecosystem
-* OpenOCD / GDB debugging workflows
-
-### Hardware & PCB Design
-
-* Complex schematic capture
-* Multi-layer PCB layout for precision instrumentation
-* Signal integrity validation
-* Hardware debugging & verification
-
-### Networking & Security
-
-* Userspace TCP/IP experimentation (`smoltcp`-style stacks)
-* Custom transport layers & FEC design
-* Secure proxy protocol research
-
-### Machine Learning & AI
-
-* Time-series forecasting & sequence models
-* AI-assisted development workflows
-* Prompt engineering for technical automation
+When I'm not building, I'm teaching — Rust programming, computer architecture, and low-level systems to students and professionals.
 
 ---
 
-## 🚀 Featured Projects
+## 🛠 Technical Stack
 
-* **[`mqtt-async-embedded`](https://github.com/FaezBarghasa/mqtt-async-embedded)** — Async MQTT v5 client for resource-constrained environments
-* **[`r_klipp`](https://github.com/FaezBarghasa/r_klipp)** — Rust-based firmware experimentation
-* **[`lcd_2x16`](https://github.com/FaezBarghasa/lcd_2x16)** — HD44780 driver using `embedded-hal`
-* **Linux kernel & device-tree experimentation** — Xiaomi Apollo platform
+### Languages
 
----
+![Rust](https://img.shields.io/badge/Rust-Expert%205%2B%20yrs-000000?style=flat&logo=rust&logoColor=white)
+![C](https://img.shields.io/badge/C-Embedded-00599C?style=flat&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-ML%20%26%20Tooling-3776AB?style=flat&logo=python&logoColor=white)
 
-## 💼 Experience
+### Embedded & Hardware
 
-### CTO — Micromed Contracting Company *(2021–Present)*
+![Embassy](https://img.shields.io/badge/Embassy-Async%20Embedded-6B3FA0?style=flat)
+![embedded-hal](https://img.shields.io/badge/embedded--hal-Driver%20Dev-orange?style=flat)
+![STM32](https://img.shields.io/badge/STM32-Bare%20Metal-03234B?style=flat&logo=stmicroelectronics&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-WiFi%20%2F%20MQTT-E7352C?style=flat&logo=espressif&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi%205-Embedded%20Linux-A22846?style=flat&logo=raspberrypi&logoColor=white)
+![Altium](https://img.shields.io/badge/Altium%20Designer-PCB%20Design-A5915F?style=flat)
 
-* Lead R&D for embedded and instrumentation systems
-* Architect hardware–software co-design solutions
-* Oversee firmware modernization toward memory-safe Rust
-* Direct schematic and PCB development lifecycle
+### Networking & Protocols
 
----
+![MQTT](https://img.shields.io/badge/MQTT%20v5-Async%20%2F%20no__std-660066?style=flat)
+![smoltcp](https://img.shields.io/badge/smoltcp-Userspace%20TCP%2FIP-005f87?style=flat)
 
-## 🎓 Education
+### Backend & UI
 
-**Data Science & Deep Learning Specialization** — *Coursera (2018–2021)*
-> Focus on neural networks, sequence models, and time-series analysis.
+![actix-web](https://img.shields.io/badge/actix--web-Rust%20Backend-orange?style=flat)
+![SurrealDB](https://img.shields.io/badge/SurrealDB-Database-FF00A0?style=flat&logo=surrealdb&logoColor=white)
+![Slint](https://img.shields.io/badge/Slint-Embedded%20UI%2060fps-2379F4?style=flat)
+![Tauri](https://img.shields.io/badge/Tauri-Desktop%20Apps-FFC131?style=flat&logo=tauri&logoColor=black)
 
----
+### AI / ML
 
-## 🧰 Toolchain & Workflow
-
-<div align="center">
-
-### Languages & Frameworks
-
-![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-
-### Embedded & Systems
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![GNU Bash](https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Altium](https://img.shields.io/badge/Altium_Designer-A5915F?style=for-the-badge&logo=altium-designer&logoColor=white)
-
-### Tools & DevOps
-
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-
-### Networking
-
-![Redox OS](https://img.shields.io/badge/Redox_OS-5a4a7d?style=for-the-badge&logo=linux&logoColor=white)
-
-</div>
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-RNN%20%2F%20DeepAR-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-LLM%20Tooling-412991?style=flat&logo=openai&logoColor=white)
 
 ---
 
-## 🌐 Open Source Contributions & Forks
+## 🚀 Current & Featured Projects
 
-### [Redox OS](https://gitlab.redox-os.org/redox-os)
+### [`mqtt-async-embedded`](https://github.com/FaezBarghasa/mqtt-async-embedded)
 
-I contribute to this Unix-like operating system written in Rust, working across the entire stack:
+A `no_std` asynchronous MQTT v5 client for embedded Rust — fully heap-free, built on stack-based state machines. Designed for bare-metal STM32 and ESP32 deployments where reliability and low memory footprint are non-negotiable.
 
-#### Core System & Drivers
+### Thermal Controller Board *(Micromed — Commercial)*
 
-`kernel` · `redox` · `redox-rpm-next` · `redoxfs` · `relibc` · `ion` · `netstack` · `init` · `ipcd` · `zerod` · `drivers` · `cookbook`
+Safety-critical temperature controller for medical and laboratory equipment: ovens, incubators, bain-marie, and autoclaves. Custom PID/IMC control loop in Rust on STM32 with WiFi/MQTT telemetry. Full multi-layer PCB designed in Altium Designer.
 
-#### Primary Focus Areas
+### CO₂ Incubator HMI *(Micromed — Deployed in Clinical Lab)*
 
-* **`relibc`** — Redox's C standard library implemented in Rust.
-* **`ion`** — A high-performance modern shell.
-* **System Architecture** — Userspace driver models, microkernel architecture research, and memory management optimization.
-* **Ecosystem** — POSIX-compatible components and async-first embedded Rust patterns.
+Production-deployed HMI for a CO₂ laboratory incubator. Single Rust + Slint codebase targeting both Raspberry Pi 5 (Embedded Linux) and ESP32 with LCD — achieving stable 60FPS on constrained hardware. Currently live in a clinical research environment.
+
+### Online Data Logger *(Micromed — Commercial)*
+
+Full-stack IoT pipeline: ESP32 firmware → Rust/actix-web cloud backend → Android app. Real-time sensor data ingestion, storage with SurrealDB, and mobile dashboard — designed and shipped solo.
 
 ---
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <!-- GitHub Readme Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=FaezBarghasa&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff8c00&icon_color=ff8c00&text_color=c9d1d9" alt="Faez's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaezBarghasa&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=ff8c00&text_color=c9d1d9" alt="Top Languages" />
-  <br/>
-  
-  <!-- Lowlighter Metrics -->
-  <img src="https://metrics.lecoq.io/FaezBarghasa?template=classic&base=header,activity,community,repositories,metadata&isocalendar=1&languages=1&stars=1&config.timezone=Asia%2FTehran" alt="FaezBarghasa's Metrics" />
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=FaezBarghasa&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=1B4F72&icon_color=2E86C1&text_color=4A4A4A&bg_color=F8FBFF" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaezBarghasa&layout=compact&hide_border=true&title_color=1B4F72&text_color=4A4A4A&bg_color=F8FBFF&langs_count=6" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=FaezBarghasa&hide_border=true&ring=1B4F72&fire=2E86C1&currStreakLabel=1B4F72&sideLabels=4A4A4A&dates=888888" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=FaezBarghasa&theme=flat&no-frame=true&column=6&margin-w=8" />
+</p>
 
 ---
 
-## 📫 Contact
+## 🔬 OS Internals Study — Redox OS
 
-* **GitHub:** [github.com/FaezBarghasa](https://github.com/FaezBarghasa)
-* **Email:** [faez.barghasa.org@gmail.com](mailto:faez.barghasa.org@gmail.com)
+I've done a deep independent study of the [Redox OS](https://gitlab.redox-os.org/redox-os) codebase — a microkernel OS written entirely in Rust. Subsystems covered:
+
+| Subsystem | Focus Area |
+|---|---|
+| `kernel` | Microkernel architecture, paging, syscalls, process scheduling |
+| `redox-rmm` | Physical memory manager, x86_64 page table structures |
+| `relibc` | POSIX C standard library in Rust — fork, exec, signals |
+| `redoxfs` | Filesystem implementation |
+| `netstack` | Userspace network stack |
+| `ion` | Shell and scripting language implementation |
+| `init` / `ipcd` / `zerod` | System init, IPC daemon, zero-copy service patterns |
+| `drivers` / `cookbook` | Driver model and package build system |
+
+---
+
+## 📚 Teaching & Mentorship
+
+I've taught the following to students and professionals:
+
+- **Rust Programming** — from fundamentals to systems-level development
+- **Computer Architecture & Low-Level Programming** — memory models, instruction sets, hardware-software interface
+- **Computer Basics** — fundamentals for teenage learners
+- **Prompt Engineering** — LLM tooling, multi-step chain design, structured output engineering
+
+I believe the best way to deeply understand a system is to explain it to someone else.
+
+---
+
+## 🎓 Background
+
+- **Data Science & Deep Learning** — Coursera / DeepLearning.AI (2018–2021)
+  - Neural Networks, CNNs, RNNs, Sequence Models
+  - Applied: DeepAR probabilistic forecasting for time-series volatility modeling
+- **Self-directed systems engineering** — ongoing since 2018
+  - Kernel internals, embedded systems, hardware design, Rust ecosystem
+
+---
+
+## � Open To
+
+### Engineering Roles
+
+- **Senior / Lead embedded systems roles** in Tehran (on-site)
+- **Remote-first engineering or technical leadership** roles globally
+- **Technical co-founder** conversations for hardware+software product startups
+- Consulting on **embedded Rust**, **PCB design**, or **IoT system architecture**
+
+### Teaching & Training
+
+- **Rust Programming** — from fundamentals to advanced systems-level Rust, for individuals or teams
+- **Embedded Rust** — bare-metal, Embassy async, embedded-hal, no_std — from first blink to production firmware
+- **Embedded Project Development** — full lifecycle: concept → schematic → PCB → firmware → deployment
+- **R&D & Research Guidance** — technical direction for hardware/software research projects
+- **Product & Market Positioning** — bridging the gap between embedded R&D and real-world product/market fit
+
+Available for **workshops, bootcamps, one-on-one mentorship, or team training programs** — online or in-person (Tehran / Karaj area).
+
+📧 <faez.barghasa.org@gmail.com>
+📱 +98 935 508 5393
+
+---
+
+*"The goal is not to write code that works. The goal is to write code that cannot fail."*
