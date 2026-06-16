@@ -21,7 +21,7 @@
 &nbsp;
 <img src="https://img.shields.io/badge/📍_Karaj,_Iran-0D1117?style=for-the-badge"/>
 &nbsp;
-<img src="https://img.shields.io/badge/CTO-Micromed-00897B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/CTO-Nexora-00897B?style=for-the-badge"/>
 
 <br/><br/>
 
@@ -37,7 +37,7 @@
 
 <img align="right" width="360" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaezBarghasa&layout=donut&hide_border=true&title_color=F74C00&text_color=555555&bg_color=FAFAFA&langs_count=5&hide=c,shell,html,css,makefile,cmake" />
 
-I'm a **self-directed systems engineer** and **CTO at Micromed** — where I own the full stack: schematic → PCB → bare-metal firmware → embedded Linux → cloud backend → desktop/embedded UI. Every layer. In Rust.
+I'm a **self-directed systems engineer** and **CTO at Nexora** — where I own the full stack: schematic → PCB → bare-metal firmware → embedded Linux → cloud backend → desktop/embedded UI. Every layer. In Rust.
 
 Five years deep in the Rust ecosystem — from `no_std` microcontrollers to a custom audio hardware protocol library, to studying the internals of a real Rust OS kernel.
 
@@ -55,7 +55,7 @@ impl FaezBarghasa {
 }
 ```
 
-- 🏭 **CTO @ Micromed** — medical & lab instruments, full-stack solo delivery
+- 🏭 **CTO @ Nexora** — medical & lab instruments, full-stack solo delivery
 - 🦀 **Rust** across every layer — `no_std` to cloud
 - 🎹 **OMID** — original `no_std` audio/hardware protocol library (MIDI 2.0 + DMA + FFI)
 - ⚡ **Embassy async** + `embedded-hal` for hardware-agnostic firmware
@@ -199,7 +199,7 @@ This is not a MIDI wrapper. It is a ground-up hardware-level event system design
 
 ---
 
-## 🏭 Commercial Work — Micromed
+## 🏭 Commercial Work — Nexora
 
 <table>
 <tr>
@@ -256,9 +256,9 @@ This is not a MIDI wrapper. It is a ground-up hardware-level event system design
 </td>
 <td width="50%" valign="top">
 
-### 🖥️ Micromed Suite *(Platform)*
+### 🖥️ Nexora Suite *(Platform)*
 
-> **Unified backend + desktop UI platform powering all Micromed instruments.**
+> **Unified backend + desktop UI platform powering all Nexora instruments.**
 
 - `actix-web` REST API with JWT auth and role management
 - `SurrealDB` as the multi-model document + time-series store
